@@ -1,0 +1,157 @@
+#chamadaHome {
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+}
+.site-footer > div {
+	display: table-cell;
+	vertical-align: middle;
+	color: white;
+	padding: 40px 0;
+}
+#adress {
+	padding: 0 40px;
+	font-size: 1em;
+	font-weight: 400;
+	text-align: justify;
+	text-transform: uppercase;
+}
+#phone {
+	font-size: 1.4em;
+	font-weight: 600;
+	text-align: right;
+	padding-right: 0;
+}
+#faixaRodape {
+	width: 100%;
+	height: 15px;
+	background: #1B7DA0;
+}
+.zeraLateral {
+	padding: 0;
+}
+.linkServicos {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.linkServicos > div {
+	height: 280px;
+}
+.linkServicos h4 {
+	background: rgba(0, 0, 0, 0.34);
+	padding: 40px 25px;
+	color: white;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-transform: uppercase;
+	letter-spacing: normal;
+}
+.linkServicos button {
+	color: white;
+	border-color: white;
+	background-color: rgba(27, 125, 160, 0.5);
+	position: absolute;
+	bottom: 20px;
+	right: 40px;
+	padding: 10px 40px;
+}
+#box_01 {
+	background: #6d6d6d url("../perth-off/images/01_box_400.jpg") center no-repeat;
+}
+#box_02 {
+	background: #6d6d6d url("../perth-off/images/02_box_400.jpg") center no-repeat;
+}
+#box_03 {
+	background: #6d6d6d url("../perth-off/images/03_box_400.jpg") center no-repeat;
+}
+#bannerNoticias {
+	width: 100%;
+	height: 90px;
+	margin: 30px 0;
+	background: #6d6d6d url("../perth-off/images/bannerNoticias.jpg") right;
+	background-repeat: no-repeat;
+}
+#bannerNoticias h1 {
+	color: white;
+}
+.home .content-area {
+	width: 100%;
+}
+.header-info {
+	position: relative;	
+	top: 0;
+	left: 50%;
+	width: 50%;
+	display: table;
+	text-align: left;
+}
+.header-text {
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 40px;
+	letter-spacing: normal;
+}
+/*--------------------------------------------------------------
+## Responsive
+--------------------------------------------------------------*/
+@media only screen and (min-width: 1199px) {
+	.header-info {
+		height: 370px;
+	}	
+}
+@media only screen and (max-width: 1199px) {
+	.header-info {
+		height: 370px;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.site-header {
+		position: relative;
+	}
+}
+@media only screen and (min-width: 1025px) {
+
+}
+@media only screen and (max-width: 991px) {
+	.site-info {
+		text-align: center;
+	}
+	.header-info {
+		height: 400px;
+	}
+}
+@media only screen and (max-width: 780px) {
+
+}
+@media only screen and (max-width: 767px) {
+	.header-info {
+		height: 400px;
+	}
+	#logoFooter {
+		width: 50%;
+		padding-bottom: 30px;
+	}
+	#adress {
+		padding: 0 40px;
+		text-align: center !important;
+	}
+	#phone {
+		text-align: center !important;
+	}
+	#box_01 {
+		background: #6d6d6d url("../perth-off/images/01_box_767.jpg") center no-repeat !important;
+	}
+	#box_02 {
+		background: #6d6d6d url("../perth-off/images/02_box_767.jpg") center no-repeat !important;
+	}
+	#box_03 {
+		background: #6d6d6d url("../perth-off/images/03_box_767.jpg") center no-repeat !important;
+	}
+}
+
+@media only screen and (max-width: 460px) {
+	#logoFooter {
+		width: 70%;
+	}
+}
