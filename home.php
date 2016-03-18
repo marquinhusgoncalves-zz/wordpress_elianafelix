@@ -27,7 +27,7 @@ get_header(); ?>
 		</div>
 	</div>
 
-	<div id="bannerNoticias" class="zeraLateral container">
+	<div id="bannerHomeNoticias" class="zeraLateral container">
 		<h1 class="container">Notícias</h1>
 	</div>
 

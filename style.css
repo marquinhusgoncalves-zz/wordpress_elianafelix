@@ -102,7 +102,7 @@ a:focus {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646f73', endColorstr='#3d768b',GradientType=1 ); /* IE6-9 */
 	/*background: #3d768b;*/
 }
-#bannerNoticias {
+#bannerHomeNoticias {
 	width: 100%;
 	height: 90px;
 	padding: 5px 0;
@@ -122,6 +122,9 @@ a:focus {
 	display: table;
 	margin-bottom: 30px;
 }
+.banner-p {
+	height: 150px;
+}
 .banner > div {
 	display: table-cell;
 	vertical-align: bottom;
@@ -136,16 +139,19 @@ a:focus {
 	line-height: initial;
 }
 #bannerSobre {
-	background: #39778d url("../perth-off/images/bannerSobre.jpg") right;
+	background: url("../perth-off/images/bannerSobre.jpg") right;
 }
-#bannerNoticias_i {
-	background: #39778d url("../perth-off/images/bannerNoticias.jpg") right;
+#bannerNoticias {
+	background: url("../perth-off/images/banner-noticias.jpg") right no-repeat;
+}
+#bannerLicitacoes {
+	background: url("../perth-off/images/banner-licitacoes.jpg") right no-repeat;
 }
 #bannerServicos {
-	background: #39778d url("../perth-off/images/bannerServicos.jpg") right;
+	background: url("../perth-off/images/bannerServicos.jpg") right;
 }
 #bannerClientes {
-	background: #39778d url("../perth-off/images/bannerClientes.jpg") right;
+	background: url("../perth-off/images/bannerClientes.jpg") right;
 }
 .home .content-area {
 	width: 100%;
@@ -1781,7 +1787,7 @@ ul.project-filter {
 	background-repeat: no-repeat;
 }
 .site-content {
-	margin-top: 60px;
+	margin-top: 30px;
 	margin-bottom: 45px;
 }
 .page-template-page_front-page {
@@ -2422,5 +2428,3 @@ svg {
 		width: 70%;
 	}
 }
-
-

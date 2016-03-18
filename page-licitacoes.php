@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 <div class="container">
 
-	<div id="bannerNoticias" class="banner banner-p clearfix">
+	<div id="bannerLicitacoes" class="banner banner-p clearfix">
 		<div>
-			<h1>Notícias</h1>
-			<p>e informação sobre leis, editais...</p>
+			<h1>Licitações</h1>
+			<p>informação sobre licitações...</p>
 		</div>
 	</div>
 
@@ -17,7 +17,7 @@
 					'orderby'			=> 'post_date',
 					'order'				=> 'DESC',
 					'post_status'		=> 'publish',
-					'category_name'		=> 'economia',
+					'category_name'		=> 'licitacoes',
 					‘paged’ 			=> $paged
 				);
 
