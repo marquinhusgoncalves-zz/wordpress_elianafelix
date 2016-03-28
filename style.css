@@ -834,7 +834,7 @@ table > tfoot > tr > td {
 }
 .entry-title a,
 .post-title a {
-	color: #2B3C4D;
+	color: #1B7DA0;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
 }
