@@ -351,3 +351,19 @@ function my_login_head() {
 	";
 }
 add_action("login_head", "my_login_head");
+
+//add class na tag p gerado pelo excerpt
+add_filter( "the_excerpt", "add_class_to_excerpt" );
+function add_class_to_excerpt( $excerpt ) {
+    return str_replace('<p', '<p class="post-capa-text"', $excerpt);
+}
+
+function custom_excerpt_length( $length ) {
+ return 65;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+function new_excerpt_more($more) {
+	return '...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
