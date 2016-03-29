@@ -22,7 +22,7 @@
 		<?php if ( (get_theme_mod('full_content_home') == 1 && is_home() ) || (get_theme_mod('full_content_archives') == 1 && is_archive() ) ) : ?>
 			<?php the_content(); ?>
 		<?php else : ?>
-			<?php the_excerpt(); ?><button href="<?php the_permalink(); ?>" class="btn-materia">Matéria</button> 
+			<?php the_excerpt(); ?><a href="<?php the_permalink(); ?>" class="btn button btn-materia">Matéria</a>
 		<?php endif; ?>
 
 	</div><!-- .entry-content -->

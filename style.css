@@ -288,11 +288,11 @@ input[type="submit"] {
 }
 .btn-materia {
 	margin-bottom: 15px;
-	color: #1B7DA0;
-    border: 1px solid #1B7DA0;
+    border: 1px solid #1B7DA0 !important;
+    border-radius: 0;
 }
 .btn-materia:hover {
-	background-color: #1B7DA0;
+	background-color: #1B7DA0 !important;
 }
 input[type="submit"] {
 	margin-top: 5px;
