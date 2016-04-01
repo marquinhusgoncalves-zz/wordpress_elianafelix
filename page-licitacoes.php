@@ -35,7 +35,7 @@
 			$custom_query->the_post(); 
 
 			        // Loop output goes here ?>
-			        <div class="col-sm-4"><?php get_template_part( 'template-parts/content', 'home'); ?>
+			        <div class="col-sm-4"><?php get_template_part( 'template-parts/content', 'licitacoes'); ?>
 			        </div>
 
 			        <?php

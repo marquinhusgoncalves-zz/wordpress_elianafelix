@@ -1,20 +1,9 @@
 /*
-Theme Name: Perth-Off
-Theme URI: http://athemes.com/theme/perth
-Author: aThemes
-Author URI: http://athemes.com
-Description: Perth is a business theme suitable for both companies and freelancers. Easily create an strong online presence by taking advantage of the many construction blocks available in Perth, like services, employees, skill, social and much more. Also, Perth provides an extensive set of options, including color and font control.
-Version: 1.04
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: perth-off
-Tags: light, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-Perth is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
-
+Theme Name: ElianaFelix-Theme
+Author: Mundo S.A
+Author URI: mundosa.com.br
+Description: Tema exclusivo para o site elianafelixlicitacoes.com.br, baseado no tema Perth-off
+Version: 1.0
 */
 
 a:focus {
@@ -81,13 +70,13 @@ a:focus {
 	padding: 10px 40px;
 }
 #box_01 {
-	background: #6d6d6d url("../perth-off/images/01_box_400.jpg") center no-repeat;
+	background: #6d6d6d url("../elianafelix-theme/images/01_box_400.jpg") center no-repeat;
 }
 #box_02 {
-	background: #6d6d6d url("../perth-off/images/02_box_400.jpg") center no-repeat;
+	background: #6d6d6d url("../elianafelix-theme/images/02_box_400.jpg") center no-repeat;
 }
 #box_03 {
-	background: #6d6d6d url("../perth-off/images/03_box_400.jpg") center no-repeat;
+	background: #6d6d6d url("../elianafelix-theme/images/03_box_400.jpg") center no-repeat;
 }
 #bannerPadrao {
 	width: 100%;
@@ -107,7 +96,7 @@ a:focus {
 	height: 90px;
 	padding: 5px 0;
 	margin: 30px 0;
-	background: #5E7074 url("../perth-off/images/bannerNoticias.jpg") right;
+	background: #5E7074 url("../elianafelix-theme/images/bannerNoticias.jpg") right;
 	background-repeat: no-repeat;
 }
 #bannerPadrao h1,
@@ -139,19 +128,19 @@ a:focus {
 	line-height: initial;
 }
 #bannerSobre {
-	background: url("../perth-off/images/bannerSobre.jpg") right;
+	background: url("../elianafelix-theme/images/bannerSobre.jpg") right;
 }
 #bannerNoticias {
-	background: url("../perth-off/images/banner-noticias.jpg") right no-repeat;
+	background: url("../elianafelix-theme/images/banner-noticias.jpg") right no-repeat;
 }
 #bannerLicitacoes {
-	background: url("../perth-off/images/banner-licitacoes.jpg") right no-repeat;
+	background: url("../elianafelix-theme/images/banner-licitacoes.jpg") right no-repeat;
 }
 #bannerServicos {
-	background: url("../perth-off/images/bannerServicos.jpg") right;
+	background: url("../elianafelix-theme/images/bannerServicos.jpg") right;
 }
 #bannerClientes {
-	background: url("../perth-off/images/bannerClientes.jpg") right;
+	background: url("../elianafelix-theme/images/bannerClientes.jpg") right;
 }
 .home .content-area {
 	width: 100%;
@@ -190,23 +179,23 @@ a:focus {
 	padding: 30px 50px;
 }
 #leis {
-	background: #39778d url("../perth-off/images/bg_leis.jpg");
+	background: #39778d url("../elianafelix-theme/images/bg_leis.jpg");
 	background-size: cover;
 }
 #analise {
-	background: #39778d url("../perth-off/images/bg_analise.jpg");
+	background: #39778d url("../elianafelix-theme/images/bg_analise.jpg");
 	background-size: cover;
 }
 #pesquisa {
-	background: #39778d url("../perth-off/images/bg_pesquisa.jpg");
+	background: #39778d url("../elianafelix-theme/images/bg_pesquisa.jpg");
 	background-size: cover;
 }
 #impug {
-	background: #39778d url("../perth-off/images/bg_impug.jpg");
+	background: #39778d url("../elianafelix-theme/images/bg_impug.jpg");
 	background-size: cover;
 }
 #docs {
-	background: #39778d url("../perth-off/images/bg_docs.jpg");
+	background: #39778d url("../elianafelix-theme/images/bg_docs.jpg");
 	background-size: cover;
 }
 form input {
@@ -831,6 +820,9 @@ table > tfoot > tr > td {
 	margin: 0 0 25px;
 	text-transform: uppercase;
 	font-size: 22px;
+}
+.entry-title-licitacoes {
+	font-size: 15px;
 }
 .entry-title a,
 .post-title a {
@@ -2323,13 +2315,13 @@ svg {
 		padding-right: 15px;
 	}
 	#box_01 {
-		background: #6d6d6d url("../perth-off/images/01_box_767.jpg") center no-repeat !important;
+		background: #6d6d6d url("../elianafelix-theme/images/01_box_767.jpg") center no-repeat !important;
 	}
 	#box_02 {
-		background: #6d6d6d url("../perth-off/images/02_box_767.jpg") center no-repeat !important;
+		background: #6d6d6d url("../elianafelix-theme/images/02_box_767.jpg") center no-repeat !important;
 	}
 	#box_03 {
-		background: #6d6d6d url("../perth-off/images/03_box_767.jpg") center no-repeat !important;
+		background: #6d6d6d url("../elianafelix-theme/images/03_box_767.jpg") center no-repeat !important;
 	}
 	.box-article > img {
 		max-width: 240px;

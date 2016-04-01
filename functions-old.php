@@ -300,6 +300,33 @@ require get_template_directory() . '/inc/styles.php';
  */
 require get_template_directory() . '/inc/theme-info.php';
 
+
+/** Desabilitei para teste Marquinhus 01/04
+ *TGM Plugin activation.
+ */
+ 
+require get_template_directory() . '/plugins/class-tgm-plugin-activation.php';
+ 
+add_action( 'tgmpa_register', 'perth_recommend_plugin' );
+function perth_recommend_plugin() {
+ 
+	$plugins = array(
+		array(
+			'name'               => 'Page Builder by SiteOrigin',
+			'slug'               => 'siteorigin-panels',
+			'required'           => false,
+		),
+		array(
+			'name'               => 'Types - Custom Fields and Custom Post Types Management',
+			'slug'               => 'types',
+			'required'           => false,
+		),          
+	);
+ 
+	tgmpa( $plugins);
+ 
+}
+
 function my_login_head() {
 	echo "
 	<style>
