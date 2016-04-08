@@ -314,6 +314,24 @@ function my_login_head() {
 }
 add_action("login_head", "my_login_head");
 
+// Link Logo
+function meu_wp_login_url() {
+    return get_bloginfo('url');
+}
+add_filter('login_headerurl', 'meu_wp_login_url');
+
+// Logo Title
+function meu_wp_login_title() {
+    return get_bloginfo('name');
+}
+add_filter('login_headertitle', 'meu_wp_login_title');
+
+// Texto admin rodape
+function remove_footer_admin () {
+    echo 'Feito com o <3 por <a href="http://www.mundosa.com.br" target="_blank">Mundo S.A </a>';
+}
+add_filter('admin_footer_text', 'remove_footer_admin');
+
 //add class na tag p gerado pelo excerpt
 add_filter( "the_excerpt", "add_class_to_excerpt" );
 function add_class_to_excerpt( $excerpt ) {

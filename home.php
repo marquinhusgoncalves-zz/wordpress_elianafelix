@@ -16,7 +16,7 @@ get_header(); ?>
 						'orderby'			=> 'post_date',
 						'order'				=> 'DESC',
 						'post_status'		=> 'publish',
-						'category_name'		=> 'economia',
+						'category_name'		=> 'noticias',
 						);
 					$temp = $wp_query;  // assign orginal query to temp variable for later use
 					$wp_query = null;

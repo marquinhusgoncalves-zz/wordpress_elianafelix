@@ -17,7 +17,7 @@
 					'orderby'			=> 'post_date',
 					'order'				=> 'DESC',
 					'post_status'		=> 'publish',
-					'category_name'		=> 'economia',
+					'category_name'		=> 'noticias',
 					‘paged’ 			=> $paged
 				);
 
